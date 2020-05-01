@@ -69,10 +69,10 @@ $ pip install speedtest-cli
 
 #### Modify parameters in main.py
 
-Modify the following parameters: \
-URL = 'url' \
-DATABASE_NAME ='db_name' \
-COLLECTION_NAME = 'collection_name'
+*** Modify the following parameters: \
+- URL = 'url' \
+- DATABASE_NAME ='db_name' \
+- COLLECTION_NAME = 'collection_name'
 
 #### Run the app
 ```
