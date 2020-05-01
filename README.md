@@ -20,6 +20,9 @@ Blog Post: https://hikariai.net
 
 ### Step #1: Create a cluster
 
+![](./demo_screenshots/003.png)
+![](./demo_screenshots/004.png)
+
 ### Step #2: Create a collection
 
 ## How To Use
