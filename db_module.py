@@ -47,6 +47,7 @@ class db:
         if query_dict['total_post']==0:
             print('No data find in database.')
         else:
+            print('data fetched!')
             print("total number of posts: {}".format(query_dict['total_post']))
             print("database content: ")
             for x in query_dict['content']:
@@ -54,27 +55,34 @@ class db:
         # return query_dict
     def get_data_by_id(self,id):
         # Find a single post by its id
+        print('data fetched!') 
         results = self.collection.find({"_id":ObjectId(id)}) # name is the key,  kev is the value
         for result in results:
             return result # print all posts(entries)
     def get_data_by_field(self,field,value):
         # Find posts that satisfy certain creteria
+        print('data fetched!') 
         results=self.collection.find({field:value}) # name is the key,  kev is the value
         for result in results:
             return result # print all posts(entries)
+ 
     def remove_all(self):
         # Remove all data
         self.collection.delete_many({})
+        print('all data have been removed!')
     def add_data(self,post):
         # Insert a post (entry)
         self.collection.insert_one(post)
+        print('data have been added!')
     def remove_data(self,id):
         # Find a post (entry) based on its Id, then remove it from db
         self.collection.delete_one({"_id":ObjectId(id)})
+        print('data have been removed!')
     def update_data(self,id,field,value):
         # Find a post based on its Id, then update a value associated with its field
         # use the $set operator to update data for a specific post(entry)
         self.collection.update_one({"_id":ObjectId(id)},{"$set":{field:value}})
+        print('data updated!')
     def get_sensors_data(self):
         self.sensors_data={
             "cpu_load":str(get_cpus()[0]['data'])+'%',
