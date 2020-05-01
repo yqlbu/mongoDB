@@ -82,5 +82,6 @@ $ python main.py
 db.help()
 - Carefully read the descriptions in the console
 - Call a specific function based on your need
+- Customize post data
 
 Enjoy!
