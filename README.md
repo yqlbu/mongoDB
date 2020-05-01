@@ -31,7 +31,7 @@ $ cd mongoDB
 
 ### Install Software Dependencies
 
-*** Please make sure you are using Python >=3.6
+*** Please make sure you are using Python >=3.6 ***
 ```
 $ pip install pymongo pymongo[srv]
 $ pip install psutil
