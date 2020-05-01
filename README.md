@@ -60,6 +60,7 @@ $ cd mongoDB
 
 *** Please make sure you are using Python >=3.6
 ```
+$ pip install -U pip
 $ pip install -r requirement.txt
 ```
 
