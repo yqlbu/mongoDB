@@ -69,12 +69,19 @@ $ pip install speedtest-cli
 
 #### Modify parameters in main.py
 
-*** Modify the following parameters: \
-- URL = 'url' \
-- DATABASE_NAME ='db_name' \
+*** Modify the following parameters: 
+- URL = 'url' 
+- DATABASE_NAME ='db_name' 
 - COLLECTION_NAME = 'collection_name'
 
 #### Run the app
+
 ```
 $ python main.py
 ```
+db.help()
+- Carefully read the descriptions in the console
+- Call a specific function based on your need
+- Customize post data
+
+Enjoy!
