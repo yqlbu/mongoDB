@@ -2,6 +2,7 @@ from db_module import db
 import time
 from datetime import datetime
 import threading
+from qrcode_api import QR_api
 
 URL = 'url'
 DATABASE_NAME ='db_name'
@@ -30,6 +31,9 @@ def main():
 
     # Show all data
     # db.show_all()
+
+    # QR code api
+    # QR_api(post)
 
 if __name__ == '__main__':
     main()
