@@ -16,7 +16,7 @@ Blog Post: https://hikariai.net
 
 ### Register a MongoDB Atlas Account
 
-Go to MongoDB Atlas Login Page [here](https://account.mongodb.com/account/login), log in with a Google Account, or register a new one.
+- Go to MongoDB Atlas Login Page [here](https://account.mongodb.com/account/login), log in with a Google Account, or register a new one.
 
 ### Create a cluster
 
