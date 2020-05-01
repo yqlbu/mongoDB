@@ -1,4 +1,4 @@
 pymongo
 pymongo[srv]
 psutil
-speedtest-clis
+speedtest-cli
