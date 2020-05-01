@@ -60,9 +60,7 @@ $ cd mongoDB
 
 *** Please make sure you are using Python >=3.6
 ```
-$ pip install pymongo pymongo[srv]
-$ pip install psutil
-$ pip install speedtest-cli
+$ pip install -r requirement.txt
 ```
 
 ### Run
