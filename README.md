@@ -14,13 +14,13 @@ Blog Post: https://hikariai.net
 
 ## Setup 
 
-### Register a MongoDB Atlas Account
+### Step #0: Register a MongoDB Atlas Account
 
 - Go to MongoDB Atlas Login Page [here](https://account.mongodb.com/account/login), log in with a Google Account, or register a new one.
 
-### Create a cluster
+### Step #1: Create a cluster
 
-### Create a collection
+### Step #2: Create a collection
 
 ## How To Use
 
