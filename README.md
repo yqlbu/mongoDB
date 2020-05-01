@@ -9,7 +9,7 @@ Blog Post: https://hikariai.net
 
 ## Demo
 
-![]('./demo_screenshots/001.jpg')
+![]('./demo_screenshots/001.png')
 
 ## Setup 
 
