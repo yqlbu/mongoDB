@@ -20,9 +20,8 @@ Blog Post: https://hikariai.net
 
 ### Step #1: Create a cluster
 
-![](./demo_screenshots/003.png)
-![](./demo_screenshots/004.png)
-
+- After you successfully log in with credentials, the window will lead you to choose a plan. Just Click the leftmost option **"Shared Cluster"**
+- Choose a Cloud Provider and Region, then press **"Create Cluster"**
 ### Step #2: Create a collection
 
 ## How To Use
