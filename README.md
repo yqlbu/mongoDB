@@ -10,6 +10,7 @@ Blog Post: https://hikariai.net
 ## Demo
 
 ![](./demo_screenshots/001.png)
+![](./demo_screenshots/002.png)
 
 ## Setup 
 
