@@ -14,11 +14,38 @@ Blog Post: https://hikariai.net
 
 ## Setup 
 
-### Create a MongoDB Atlas Account
+### Step #0: Register a MongoDB Atlas Account
 
-### Create a cluster
+- Go to MongoDB Atlas Login Page [here](https://account.mongodb.com/account/login), log in with a Google Account, or register a new one.
 
-### Create a collection
+### Step #1: Create a cluster
+
+- After you successfully log in with credentials, the window will lead you to choose a plan. Just Click the leftmost option **"Shared Cluster"**
+- Choose a Cloud Provider and Region, then press **"Create Cluster"**
+
+### Step #3: Create a project
+
+- On the very upper left corner, you will find a tab with **"Project 0"**, press **"New Project"**, create one with your own prefrence.
+- Once the project has been created, you will find an option with **"Build a Cluster"**, follow the instructions in Step #1.
+- Wait until the cluster has been succesfully created
+
+### Step #4: Create a database
+
+- Find the tab with **"Cluster 0"**, and press it
+- Find the tab with **"collections"**, and press it
+- Press **"Add My Own Data"**
+- Type a name for the database, and a name for the collection (instance of database)
+- Press **"Create"**
+
+### Step #5: Build Connection
+
+- Find the tab with **"Cluster"** on the left column, and press it
+- Under **"Cluster 0"** section, you will find a tab named **"CONNECT"**, press it
+- On the **"Whitelist a connection IP address"** tab, press **"Add Your Current IP Address"**
+- On the **"Create a MongoDB User"** tab, type in a username and a password
+- Press **"Choose a Connection Method"**, find the tab **"Connect your application"**, and press it
+- From the **"Driver"** tab, choose **"Python"**, **"Version** **3.6 or later"**
+- Copy the **"Conenction String", save it in a text file 
 
 ## How To Use
 
@@ -31,7 +58,7 @@ $ cd mongoDB
 
 ### Install Software Dependencies
 
-Please make sure you are using Python >=3.6
+*** Please make sure you are using Python >=3.6
 ```
 $ pip install pymongo pymongo[srv]
 $ pip install psutil
@@ -39,3 +66,15 @@ $ pip install speedtest-cli
 ```
 
 ### Run
+
+#### Modify parameters in main.py
+
+*** Modify the following parameters: \
+- URL = 'url' \
+- DATABASE_NAME ='db_name' \
+- COLLECTION_NAME = 'collection_name'
+
+#### Run the app
+```
+$ python main.py
+```
