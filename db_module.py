@@ -65,7 +65,6 @@ class db:
         results=self.collection.find({field:value}) # name is the key,  kev is the value
         for result in results:
             return result # print all posts(entries)
- 
     def remove_all(self):
         # Remove all data
         self.collection.delete_many({})
