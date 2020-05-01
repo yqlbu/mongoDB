@@ -23,14 +23,19 @@ Blog Post: https://hikariai.net
 ## How To Use
 
 ### Clone the Repo
+```
+$ cd ~
+$ git clone https://github.com/yqbu/mongoDB
+$ cd mongoDB
+```
 
 ### Install Software Dependencies
 
 Please make sure you are using Python >=3.6
 ```
-pip install pymongo pymongo[srv]
-pip install psutil
-pip install speedtest-cli
+$ pip install pymongo pymongo[srv]
+$ pip install psutil
+$ pip install speedtest-cli
 ```
 
 ### Run
