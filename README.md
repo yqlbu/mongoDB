@@ -7,10 +7,18 @@ You may use this repo as a tool to constantly post data to your database hosted 
 Official Website: https://docs.atlas.mongodb.com/ \
 Blog Post: https://hikariai.net
 
-
-
-
+## Demo
 
 ## Setup 
 
-## How to use
+### Create a MongoDB Atlas Account
+
+### Create a cluster
+
+### Create a collection
+
+## How To Use
+
+### Clone the Repo
+
+### Install Software Dependencies
