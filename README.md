@@ -45,6 +45,7 @@ Blog Post: https://hikariai.net
 - On the **"Create a MongoDB User"** tab, type in a username and a password
 - Press **"Choose a Connection Method"**, find the tab **"Connect your application"**, and press it
 - From the **"Driver"** tab, choose **"Python"**, **"Version** **3.6 or later"**
+- Copy the **"Conenction String", save it in a text file 
 
 ## How To Use
 
@@ -65,6 +66,10 @@ $ pip install speedtest-cli
 ```
 
 ### Run
+
+#### Modify parameters in main.py
+
+#### Run the app
 ```
 $ python main.py
 ```
