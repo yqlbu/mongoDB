@@ -76,7 +76,7 @@ $ pip install speedtest-cli
 
 #### Run the app
 
-*** db.help()
+db.help()
 - You might need to check out all the functions before you run the app
 - Carefully read the descriptions in the console
 
