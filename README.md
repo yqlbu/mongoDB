@@ -39,3 +39,6 @@ $ pip install speedtest-cli
 ```
 
 ### Run
+```
+$ python main.py
+```
