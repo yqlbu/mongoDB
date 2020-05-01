@@ -22,3 +22,5 @@ Blog Post: https://hikariai.net
 ### Clone the Repo
 
 ### Install Software Dependencies
+
+### Run
