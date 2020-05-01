@@ -3,9 +3,9 @@ import time
 from datetime import datetime
 import threading
 
-URL = 'mongodb+srv://kev:439911@cluster0-fuzdr.gcp.mongodb.net/test?retryWrites=true&w=majority'
-DATABASE_NAME ='jetson'
-COLLECTION_NAME = 'instance-01'
+URL = 'url'
+DATABASE_NAME ='db_name'
+COLLECTION_NAME = 'collection_name'
 SENT_INTERVAL = 60 # Sent data interval in second
 
 db = db(URL,DATABASE_NAME,COLLECTION_NAME)
@@ -20,7 +20,7 @@ def main():
     }
     
     # Help
-    # db.help()
+    db.help()
 
     # Send data
     # db.add_data(post)
@@ -29,7 +29,7 @@ def main():
     # db.remove_all()
 
     # Show all data
-    db.show_all()
+    # db.show_all()
 
 if __name__ == '__main__':
     main()
